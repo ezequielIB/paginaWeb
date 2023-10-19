@@ -21,7 +21,7 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    overflow: hidden;
+    overflow: auto;
 }
 header {
     position: fixed;
