@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Animado</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--boxicons link-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+        <!--header section-->
+        <header>
+            <a href="#" class="logo"><span>E</span>zequiel</a>
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Sobre Mi</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <span>INTRO</span>
+                <div class="bx bx-menu" id="menu-icon">
+
+                </div>
+
+            </div>
+        </header>
+
+        <!--home section-->
+        <section class="home">
+            <div class="home-text">
+                <span>Software Developer</span>
+                <h1>Ezequiel Ibañez</h1>
+                <p>
+                    Desarollador de softwares y webs, implementando sus conocimientos 
+                    de QA Automation Ssr.
+                    Apasionado por seguir aprendiendo y mejorando en el mundo IT.
+                </p>
+
+                <div class="main-btn">
+                    <a href="#" class="btn" id="downloadCvBtn">Descargar CV</a>
+                    <a href="#" class="btn dos">Contratame Ahora!</a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="c.erre 1080.png" alt="">
+
+            </div>
+        </section>
+        <div class="share">
+            <p>Mira mis redes:</p>
+            <div class="social">
+                <a href="https://www.instagram.com/c.erre__/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/_ezetop" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/cristian-iba%C3%B1ez/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/ezequielIB" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+        <script src="script.js"></script>
+
+        <script>
+            document.getElementById('downloadCvBtn').addEventListener('click', function() {
+              var pdfURL = 'https://drive.google.com/file/d/1dTb5QqQ1dU4V62bxT-ULiDyxWDowqhx_/view?usp=share_link';
+          
+              window.open(pdfURL, '_blank');
+            });
+          </script>          
+</body>
+</html>
